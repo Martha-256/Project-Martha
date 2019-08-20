@@ -1,0 +1,10 @@
+
+.nav_bar {
+    height: 100%; 
+    width: 20%;
+    position: fixed;
+}
+
+.main {
+    margin-left: 20%;
+}
