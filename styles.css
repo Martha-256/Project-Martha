@@ -19,23 +19,23 @@
     font-family: Arial, Helvetica, sans-serif
 
   }
-  .nav_bar a:link {
+ .nav-link {
     color: #fff;
     text-decoration:none;
     cursor:pointer;
 }
 
-.nav_bar a:visited {
+.nav-bar :visited {
     color:#fff;
     text-decoration: none;
 
 }
 
-.nav_bar a:hover {
+.nav-link:hover {
     text-decoration: underline;
 }
 
-.nav_bar a:active {
+.nav-link:active {
     text-decoration: underline;
 }
 .main-section {
@@ -49,5 +49,10 @@ h1,h2,h3,h4,h5,h6 {
  font-family: Arial, Helvetica, sans-serif
     
 }
-
-
+code{
+    display: block;
+    background-color:rgb(225, 243, 243);
+    text-align: left;
+    padding: 1em;
+    line-height: 3;
+}
